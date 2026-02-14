@@ -1,0 +1,25 @@
+1. Dataset Understanding:
+Reviewed the dataset structure, columns, and data types.
+Identified missing values, inconsistent entries, and formatting issues.
+
+2. AutoFit Column Widths
+Adjusted column widths using AutoFit to ensure all cell contents are fully visible.
+Improved readability and presentation of the dataset.
+
+3. Used Find & Replace to remove * characters from the Client Name column.
+Before: AMAZON.COM, INC. (XNAS:AMZN)
+After: amazon.com, inc.
+
+4. Trimmed extra spaces and converted contact names to proper case using PROPER(TRIM()).
+
+5. Applied Text to Columns to separate Department and City values using the required delimiter (_).
+
+6. Replaced blank values with “NA”.
+
+7. Checked for duplicate rows using Remove Duplicates.
+
+8. Handled Errors in Profit Margin Column:
+Applied the IFERROR() function in the Profit Margin column.
+Replaced calculation errors (such as division by zero) with appropriate values.
+
+9. Converted Clean Data into Table Format.
